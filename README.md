@@ -1,2 +1,2 @@
 # hashicorpExperiment
-Experimenting with Hashicorp
+Experimenting with Hashicorp. Having fun with Hashi. 
