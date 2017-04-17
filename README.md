@@ -10,7 +10,8 @@ Notes about the software:
 1. This software uses Packer to create a EC2 AMI which has redis and consul installed on it. 
 
 2. The consul cluster is going to be deployed in an Amazon VPC, which has two subnets. The consul cluster
-   would have 3 nodes running consul servers on them. 
+   would have 3 nodes running consul servers on them. The consul cluster will be front ended with an 
+   Amazon ELB. 
 
 3. Along with the consul cluster, the terraform script also deploys a Redis instance from the EC2 AMI 
    that was created in step 1. The redis server will be started automatically during the deployment. 
