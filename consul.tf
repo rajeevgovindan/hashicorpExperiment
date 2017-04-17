@@ -1,5 +1,4 @@
 variable "ami_ecs" {
-    description = "AMI ids by region for ECS Optimised Linux"
     default = {
         us-east-1 = "ami-a88a46c5"
     }
