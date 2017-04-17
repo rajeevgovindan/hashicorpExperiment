@@ -1,0 +1,15 @@
+{
+  "service": {
+    "name": "redis",
+    "tags": ["primary"],
+    "address": "",
+    "port": 6379,
+    "enableTagOverride": false,
+    "checks": [
+      {
+        "script": "/home/ubuntu/redis-check.sh",
+        "interval": "10s"
+      }
+    ]
+  }
+}
